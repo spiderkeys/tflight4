@@ -233,7 +233,7 @@ static u8 fixed_rdesc[] = {
 };
 
 
-static int throttle_seesaw_extra_axis = 0;
+static int throttle_seesaw_extra_axis = 1;
 module_param(throttle_seesaw_extra_axis, int, 0664);
 MODULE_PARM_DESC(throttle_seesaw_extra_axis, "Assign stick twist to a Z axis, unlocking throttle seesaw as a separate Rz axis. Default is 0 (off), which matches proprietary driver. Set to 1 to enable.");
 
